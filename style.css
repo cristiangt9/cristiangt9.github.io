@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  background: #dedede;
+  
+  align-items: center;
+  height: 120vh;
+}
+.game {
+  display: flex;
+}
+
+.gameboard {
+  height: 100vh;
+  width: 100vh;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  max-height: 60vh;
+  max-width: 60vh;
+}
+
+.color {
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: left;
+}
+
+.blue {
+  background: #047bc0;
+}
+
+.blue.light {
+  background: #2ca0ff;
+}
+
+.violet {
+  background: #9102c9;
+}
+
+.violet.light {
+  background: #d82ffa;
+}
+
+.orange {
+  background: #c96c01;
+}
+
+.orange.light {
+  background: #ff9925;
+}
+
+.green {
+  background: #31a001;
+}
+
+.green.light {
+  background: #9dff00;
+}
+
+.btn-start {
+  width: 400px;
+  height: 100px;
+  background: #ecf0f1;
+  color: #2c3e50;
+  font-size: 2.5rem;
+  position: absolute;
+  top: calc(25%);
+  left: calc(50% - 200px);
+}
+.btn-menssage {
+  background: #3da790;
+  color: #ffffff;
+  width: 400px;
+  height: 100px;
+  font-size: 2.5rem;
+  position: absolute;
+  top: calc(25%);
+  left: calc(50% - 200px);
+  text-align: center;
+  padding: 15px;
+}
+
+.hide {
+  display: none;
+}
+
+.title {
+  display: inline;
+  text-align: center;
+}
+
+
+.markerLevel {
+  color: #3da790
+}

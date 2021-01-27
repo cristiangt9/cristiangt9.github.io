@@ -1,2 +1,2 @@
-# cristiangt9.github.io
-My public page of the developer
+# SimonSays
+ Basic game of Simon say
